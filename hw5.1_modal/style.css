@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.modal {
+  background-color: #046a99;
+  padding: 15px 15px 15px 20px;
+  height: 500px;
+  display: none;
+}
+
+.modal__header {
+  font-size: 24px;
+  color: whitesmoke;
+  border-bottom: 3px solid #000;
+}
+
+.modal__form {
+  height: 450px;
+  font-size: 18px;
+  color: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal #name {
+  width: 350px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
+.modal #pass {
+  width: 350px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
+.modal #email {
+  width: 350px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+}
+
+.modal__button {
+  width: 150px;
+  height: 30px;
+  background-color: #a2d31d;
+  border: none;
+}
+
+.modal__button:hover {
+  background-color: #c4eb5b;
+}
+/*# sourceMappingURL=style.css.map */
