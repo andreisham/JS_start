@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+}
+.modal {
+	background-color: rgb(4, 106, 153);
+	padding: 15px 15px 15px 20px;
+	height: 500px;
+	display: none;
+		&__header {
+			font-size: 24px;
+			color: whitesmoke;
+			border-bottom: 3px solid #000;
+		}
+
+		&__form {
+			height: 450px;
+			font-size: 18px;
+			color: wheat;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		#name {
+			width: 350px;
+			height: 30px;
+			border: none;
+			outline: none;
+			padding: 15px;
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px black;
+		}
+
+		#pass {
+			width: 350px;
+			height: 30px;
+			border: none;
+			outline: none;
+			padding: 15px;
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px black;
+		}
+
+		#email {
+			width: 350px;
+			height: 30px;
+			border: none;
+			outline: none;
+			padding: 15px;
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px black;
+		}
+
+		&__button {
+			width: 150px;
+			height: 30px;
+			background-color: rgb(162, 211, 29);
+			border: none;
+		}
+		&__button:hover {
+			background-color: rgb(196, 235, 91);
+		}
+}
