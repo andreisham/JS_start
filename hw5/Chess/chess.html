@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chess</title>
+	<link rel="stylesheet" href="chess_style.css">
+	<script src="https://kit.fontawesome.com/c589e00add.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="chess__board">
+			<!-- буквенный ряд -->
+			<div class="chess__box chess__box_border"></div>
+			<div class="chess__box chess__box_border">A</div>
+			<div class="chess__box chess__box_border">B</div>
+			<div class="chess__box chess__box_border">C</div>
+			<div class="chess__box chess__box_border">D</div>
+			<div class="chess__box chess__box_border">E</div>
+			<div class="chess__box chess__box_border">F</div>
+			<div class="chess__box chess__box_border">G</div>
+			<div class="chess__box chess__box_border">H</div>
+			<div class="chess__box chess__box_border"></div>
+			<!-- восьмой ряд -->
+			<div class="chess__box chess__box_border">8</div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-rook chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-bishop chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-knight chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-king chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-queen chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-knight chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-bishop chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-rook chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_border">8</div>
+			<!-- седьмой ряд -->
+			<div class="chess__box chess__box_border">7</div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_black"></i></div>
+			<div class="chess__box chess__box_border">7</div>
+			<!-- шестой ряд -->
+			<div class="chess__box chess__box_border">6</div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_border">6</div>
+			<!-- пятый ряд -->
+			<div class="chess__box chess__box_border">5</div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_border">5</div>
+			<!-- четвертый ряд -->
+			<div class="chess__box chess__box_border">4</div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_border">4</div>
+			<!-- третий ряд -->
+			<div class="chess__box chess__box_border">3</div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_bw"></div>
+			<div class="chess__box chess__box_border">3</div>
+			<!-- второй ряд -->
+			<div class="chess__box chess__box_border">2</div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-pawn chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_border">2</div>
+			<!-- первый ряд -->
+			<div class="chess__box chess__box_border">1</div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-rook chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-bishop chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-knight chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-king chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-queen chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-knight chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-bishop chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_bw"><i class="fas fa-chess-rook chess__fig chess__fig_white"></i></div>
+			<div class="chess__box chess__box_border">1</div>
+			<!-- буквенный ряд -->
+			<div class="chess__box chess__box_border"></div>
+			<div class="chess__box chess__box_border">A</div>
+			<div class="chess__box chess__box_border">B</div>
+			<div class="chess__box chess__box_border">C</div>
+			<div class="chess__box chess__box_border">D</div>
+			<div class="chess__box chess__box_border">E</div>
+			<div class="chess__box chess__box_border">F</div>
+			<div class="chess__box chess__box_border">G</div>
+			<div class="chess__box chess__box_border">H</div>
+			<div class="chess__box chess__box_border"></div>
+		</div>
+
+	</div>
+</body>
+<script src="chess_script.js"></script>
+</html>

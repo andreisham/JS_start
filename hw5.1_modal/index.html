@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modal</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<center><button class="modal__button">Модальное окно</button></center>
+		
+		<div class="modal">
+			
+			<form action="#" class="modal__form">
+				<div class="modal__header"><h1>РЕГИСТРАЦИЯ</h1></div>
+				<div class="modal__name">
+					<label for="name">Имя пользователя</label>
+					<input id="name" type="text">
+				</div>
+				<div class="modal__pass">
+					<label for="pass">Пароль</label>
+					<input id="pass" type="password" required>
+				</div>
+				<div class="modal__email">
+					<label for="email">Адрес электронной почты</label>
+					<input id="email" type="email" required>
+				</div>
+				<button type="submit" class="modal__button">РЕГИСТРАЦИЯ</button>
+			</form>
+			
+		</div>
+	</div>
+	<script src="modal_script.js"></script>
+</body>
+</html>
